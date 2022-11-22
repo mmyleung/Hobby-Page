@@ -1,7 +1,6 @@
 :root{
     --background:#DDCEBA;
     --headerandfooter:#2C333E;
-    --button:#C6733D;
 
 }
 
@@ -32,4 +31,31 @@ header{
 .right{
     float:right;
     margin-right:40px;
+}
+
+#firstSlideContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+#scroll {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color:var(--background);
 }
