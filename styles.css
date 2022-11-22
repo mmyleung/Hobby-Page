@@ -59,3 +59,28 @@ li{
     width: 100%;
     background-color:var(--background);
 }
+
+.gallery-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    
+    }
+    .gallery-img {
+        width: 100%;
+      max-width: 350px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    
+    #picture-gallery-title{
+        width:100%;
+        text-align: center;
+    }
