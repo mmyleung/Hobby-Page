@@ -1,0 +1,35 @@
+:root{
+    --background:#DDCEBA;
+    --headerandfooter:#2C333E;
+    --button:#C6733D;
+
+}
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;
+}
+
+header{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    background-color: var(--headerandfooter);
+    color:var(--background);
+    padding-left: 20px;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    z-index: 1;
+}
+.left{
+    float:left;
+    margin-left:0;
+}
+.right{
+    float:right;
+    margin-right:40px;
+}
