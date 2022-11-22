@@ -33,6 +33,10 @@ header{
     margin-right:40px;
 }
 
+#date {
+    text-align: center;
+}
+
 #firstSlideContainer {
     display: flex;
     flex-direction: column;
@@ -45,6 +49,8 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
+    height: 100vh;
+    align-items: center;
 }
 
 li{
@@ -82,5 +88,22 @@ li{
     
     #picture-gallery-title{
         width:100%;
+        text-align: center;
+    }
+
+    #video{
+        height:80vh;
+        text-align: center;
+        margin-top: 50px;
+    
+    }
+    
+    iframe {
+        display:block;
+        margin:120px auto;
+        
+    }
+
+    footer {
         text-align: center;
     }
